@@ -5,17 +5,17 @@ import pygame
 
 pygame.init()
 pygame.mixer.init()  #to initialize the mixer
-pygame.mixer.music.load("Funny_bts_ringtone.mp3")  #to load target audio file
+pygame.mixer.music.load("Funny_music.mp3")  #to load target audio file
 pygame.mixer.music.play(-1)  #to play the audio,here (-1) for infinite loop
 
 ### initializing window ###
 win = Tk() #to create window
 win.geometry('750x400') #window's width & height
 win.resizable(0, 0) #to fix the size of the window
-win.title('가위-바위-보')  #to set the title of the window
+win.title('ROCK-PAPER-SCISSORS')  #to set the title of the window
 win.config(bg = '#856ff8') #to set background color
 
-Label(win, text='가위(scissors), 바위(rock), 보(paper)', font='Times 30 bold italic', bg='pink1').pack()
+Label(win, text='Scissors, rock, paper', font='Times 30 bold italic', bg='pink1').pack()
 #label() widget - to display text that user can't modify
 #win is the name of our window
 #text displays on the label as the label
