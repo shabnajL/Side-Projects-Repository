@@ -1,0 +1,43 @@
+<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Age Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <div class="base">
+        <!--Header-->
+        <div>
+          <h4>AGE CALCULATOR</h4>
+        </div>
+
+        <!--taking Date, month and year from user-->
+        <div>
+          <p>DATE</p>
+          <input type="text" name="date" placeholder="Enter date(DD)" required="required" minlength="1" maxlength="2"/>
+        </div>
+        <div>
+          <p>MONTH</p>
+          <input type="text" name="month" placeholder="Enter month(MM)" required="required" minlength="1" maxlength="2"/>
+        </div>
+        <div>
+          <p>YEAR</p>
+          <input type="text" name="year" placeholder="Enter year(YYYY)" required="required" minlength="4" maxlength="4"/>
+        </div>
+      </div> 
+      
+      
+      <!--SUBMIT button-->
+      <div class="base">
+        <div>
+          <input type="button" name="Submit" value="Submit" onclick="calculate_age()"/> 
+        </div>
+      </div>
+      
+    </form>
+  </div>
+</body>
+
+</html>
