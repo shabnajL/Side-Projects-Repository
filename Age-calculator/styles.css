@@ -1,0 +1,33 @@
+body{
+  background-color: Teal;
+  font-family: Arial, Times, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  background-color: GhostWhite;
+  border-radius: 30px;
+  height: auto;
+  width: 500px;
+  margin: 100px auto;
+}
+.base{
+  width: 100%;
+  margin: none;
+  display: block;
+  float: none;
+  overflow:hidden;
+}
+.base h4{
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: normal;
+  margin-top: 0px;
+  box-shadow: 0px 2px thistle;
+  background: SlateGray;
+  color: whitesmoke;
+  
+}
