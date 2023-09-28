@@ -1,33 +1,98 @@
-body{
-  background-color: Teal;
-  font-family: Arial, Times, sans-serif;
-  font-size: 12px;
-  line-height: 1;
-  padding: 0;
-  margin: 0;
-}
-.container{
-  background-color: GhostWhite;
-  border-radius: 30px;
-  height: auto;
-  width: 500px;
-  margin: 100px auto;
-}
-.base{
-  width: 100%;
-  margin: none;
-  display: block;
-  float: none;
-  overflow:hidden;
-}
-.base h4{
-  text-align: center;
-  font-size: 30px;
-  font-family: monospace;
-  font-weight: normal;
-  margin-top: 0px;
-  box-shadow: 0px 2px thistle;
-  background: SlateGray;
-  color: whitesmoke;
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: BurlyWood;
+    font-family: Arial, Times, sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .container{
+    background-color: GhostWhite;
+    border-radius: 10px;
+    height: auto;
+    width: 550px;
+    margin: 100px auto;
+    box-shadow:  20px 20px 40px grey;
+  }
+  .base{
+    width: 100%;
+    margin: none;
+    display: block;
+    float: none;
+    overflow: hidden;
+  }
+  .base h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: normal;
+    margin-top: 0px;
+    box-shadow: 0px 2px thistle;
+    background: Chocolate;
+    color: whitesmoke;
+  }
+  .block{
+    width: 130px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    
+  }
+  .title{
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.6px;
+    word-spacing: 2.8px;
+    color: #1463d0;
+  }
   
-}
+  input[type="text"]{
+    width: 150px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #1073d0;
+    padding: 12px;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    color: black;
+    font-size: 15px;
+  }
+  input[type="text"]:focus{
+    background-color: #ffffff;
+    border: 2px solid orange;
+    outline: none;
+  }
+  input[type="button"],[type="reset"]{
+    width: 150px;
+    margin: 20px auto;
+    margin-left: 80px;
+    padding: 12px 14px;
+    border-radius: 2px;
+    background-color: #494949;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+  }
+  input[type="button"]:hover, [type="reset"]:hover{
+    background-color: #006369;
+  }
+  
+  .output{
+    width: 100%;
+    margin: none;
+    float: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    background: #4B0082;
+    color: whitesmoke;
+  }
